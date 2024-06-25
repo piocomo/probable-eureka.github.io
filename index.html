@@ -10,6 +10,18 @@
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
   </head>
   <body>
+    <script>
+const urlParams = new URLSearchParams(window.location.search);
+const myParam = urlParams.get('tgWebAppStartParam');
+
+  if(myParam) {
+    window.location.href = `https://t.me/GawrrGura_bot?start=${myParam}`
+  } {
+  window.location.href = "https://google.com"
+  }
+
+    </script>
     <div id="root"></div>
+    <h1>Hi LOL</h1>
   </body>
 </html>
