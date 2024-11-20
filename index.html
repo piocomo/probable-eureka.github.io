@@ -11,14 +11,18 @@
   </head>
   <body>
     <script>
-const urlParams = new URLSearchParams(window.location.search);
-const myParam = urlParams.get('tgWebAppStartParam');
+	    const urlParams = new URLSearchParams(window.location.search);
+	    const myParam = urlParams.get('tgWebAppStartParam');
 
-  if(myParam) {
-    window.location.href = `https://t.me/GawrrGura_bot?start=${myParam}`
-  } {
-  window.location.href = "https://google.com"
-  }
+	    if(myParam) {
+		    window.location.href = `https://t.me/GawrrGura_bot?start=${myParam}`
+	    }// {
+
+	    //  window.location.href = "https://google.com"
+
+
+
+	    //}
 
     </script>
     <div id="root"></div>
